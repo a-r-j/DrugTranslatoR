@@ -1,0 +1,13 @@
+Package: DrugTranslatoR
+Type: Package
+Title: Translate between Drug/Chemical identifiers using the Chemical Translation Service (CTS)
+Version: 0.1.0
+Data: 2019-02-18
+Author: Arian Jamasb
+Maintainer: Arian Jamasb <arian@jamasb.io>
+Description: Sends HTTP requests to the CTS to translate between a large variety of drug and chemical identifiers
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+Imports: jsonlite, RCurl, utils
+RoxygenNote: 6.1.1.9000
