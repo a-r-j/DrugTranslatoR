@@ -4,6 +4,14 @@ R package for translating between drug identifiers using the [Chemical Translati
 # Details
 Simple R wrapper to send HTTP requests to the CTS server.
 
+# Installation
+```
+# install devtools if required
+if (!requireNamespace("devtools")) install.packages("devtools")
+# then install DrugTranslatoR
+devtools::install_github("a-r-j/DrugTranslatoR")
+```
+
 # Usage
 `translateDrugID(from, to, query)` - Translate between different drug/chemical identifiers  
 `sourceIDs()` - Fetch list of valid identifies that can be translated from   
